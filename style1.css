@@ -1,0 +1,26 @@
+.img1,.img2{
+    height: 250px;
+    width: 250px;
+}
+.main{
+    margin-left:30%;
+    margin-top: 12%;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 45px;
+    box-shadow: 0 4px 8px black;
+    transition: 10ms ease-in-out;
+    transform:translate(5px 5px);
+    cursor: pointer;
+}
+.description{
+    padding: 0 2px 0 2px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px black;
+}
